@@ -6,10 +6,17 @@
 </head>
 <body>
 <h1>Danh sach san pham</h1>
-<input placeholder="product name" id="name"><button onclick="addNewProduct()">Add</button>
+<input placeholder="id" id="id">
+<input placeholder="name" id="name">
+<input placeholder="price" id="price">
+<input placeholder="number" id="number"><button onclick="addNewProduct()">Add</button>
 <table border="1px">
     <tr>
+        <th>Id</th>
         <th>Name</th>
+        <th>Price</th>
+        <th>Number</th>
+        <th>Amount</th>
         <th>Edit</th>
         <th>Delete</th>
     </tr>
@@ -26,6 +33,7 @@
     </tr>
     </tbody>
 </table>
+<script src="product.js"></script>
 <script src="index.js"></script>
 </body>
 </html>
